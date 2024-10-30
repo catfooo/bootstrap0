@@ -18,3 +18,8 @@
 
 */
 
+section.resume-section .resume-section-content, .resume-section-img {
+  width: 100%;
+}
+/* this seems not loading when it is with bootstrap+custom css from the template
+det verkar inte laddas ner när det är med bootstrap+custom css från template */
