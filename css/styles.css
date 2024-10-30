@@ -10947,7 +10947,7 @@ p.lead {
 section.resume-section {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  /* align-items: center; */
   padding-left: 1rem;
   padding-right: 1rem;
   padding-top: 5rem;
