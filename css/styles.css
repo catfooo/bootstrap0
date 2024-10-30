@@ -66,7 +66,7 @@
   --bs-border-width: 1px;
   --bs-border-style: solid;
   --bs-border-color: rgba(255, 255, 255, 0.2)/* #dee2e6; */ /* rgba från .img-profile */
-  --bs-border-color-translucent: rgba(0, 0, 0, 0.175);
+  /*--bs-border-color-translucent: rgba(0, 0, 0, 0.175); */ /* to use a value of --bs-border-color */
   --bs-border-radius: 0.375rem;
   --bs-border-radius-sm: 0.25rem;
   --bs-border-radius-lg: 0.5rem;
@@ -609,7 +609,7 @@ progress {
   background-color: #fff;
   border: 0.5rem /* 1px */ /* border från img-profile */ solid var(--bs-border-color);
   border-radius: 0.375rem;
-  max-width: 10rem; /* border från img-profile */ /* 100%; */
+  max-width: 10rem; /* från img-profile */ /* 100%; */
   height: auto;
 }
 
