@@ -65,7 +65,7 @@
   --bs-body-bg: #fff;
   --bs-border-width: 1px;
   --bs-border-style: solid;
-  --bs-border-color: #dee2e6;
+  --bs-border-color: rgba(255, 255, 255, 0.2)/* #dee2e6; */ /* rgba från .img-profile */
   --bs-border-color-translucent: rgba(0, 0, 0, 0.175);
   --bs-border-radius: 0.375rem;
   --bs-border-radius-sm: 0.25rem;
@@ -607,7 +607,7 @@ progress {
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
-  border: 1px solid var(--bs-border-color);
+  border: 0.5rem /* 1px */ /* border från img-profile */ solid var(--bs-border-color);
   border-radius: 0.375rem;
   max-width: 100%;
   height: auto;
