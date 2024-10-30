@@ -10954,7 +10954,7 @@ section.resume-section {
   max-width: 75rem;
 }
 section.resume-section .resume-section-content {
-  width: 100%;
+  /* width: 100%; */ /* kör inline display(förnamn efternamn) */
   flex: 0 1 auto; /* Allow the div to grow with content, but not exceed it */
 }
 
