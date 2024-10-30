@@ -10953,7 +10953,7 @@ section.resume-section {
   padding-bottom: 5rem;
   max-width: 75rem;
 }
-section.resume-section .resume-section-content {
+section.resume-section .resume-section-content, .resume-section-img {
   width: 100%;
 }
 
