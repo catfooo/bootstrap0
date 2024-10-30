@@ -605,7 +605,7 @@ progress {
 }
 
 .img-thumbnail {
-  padding: 0.25rem;
+  /* padding: 0.25rem; */
   background-color: #fff;
   border: 0.5rem /* 1px */ /* border från img-profile */ solid var(--bs-border-color);
   border-radius: 0.375rem;
