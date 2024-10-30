@@ -9304,6 +9304,7 @@ textarea.form-control-lg {
   }
   .d-lg-inline {
     display: inline !important;
+    width:300px; /* for test inline display */
   }
   .d-lg-inline-block {
     display: inline-block !important;
