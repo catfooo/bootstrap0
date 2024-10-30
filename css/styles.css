@@ -10960,7 +10960,6 @@ section.resume-section .resume-section-content {
 
 section.resume-section .resume-section-img {
   max-width: 100%;
-  flex: 1; /* Allow the image to take the remaining space */
 }
 
 @media (min-width: 768px) {
