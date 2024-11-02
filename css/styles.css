@@ -10895,6 +10895,10 @@ p.lead {
     height: 100vh;
   }
 
+  #sideNav-alternative {
+    padding-left: 17rem;
+  }
+
   #sideNav .navbar-brand {
     display: flex;
     margin: auto auto 0;
