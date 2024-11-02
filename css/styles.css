@@ -10895,12 +10895,6 @@ p.lead {
     height: 100vh;
   }
 
-  #sideNav#sideNav-alternative {
-    bottom: 0;
-    right: 0;
-  }
-  /* alternativt id för ny sideNav */
-
   #sideNav .navbar-brand {
     display: flex;
     margin: auto auto 0;
