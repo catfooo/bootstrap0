@@ -18,6 +18,15 @@ window.addEventListener('DOMContentLoaded', event => {
         });
     };
 
+     // Activate Bootstrap scrollspy on the alt nav element
+     const sideNavAlternative = document.body.querySelector('#sideNav-alternative');
+     if (sideNavAlternative) {
+         new bootstrap.ScrollSpy(document.body, {
+             target: '#sideNav-alternative',
+             rootMargin: '0px 0px -40%',
+         });
+     };
+
     // Collapse responsive navbar when toggler is visible
     const navbarToggler = document.body.querySelector('.navbar-toggler');
     const responsiveNavItems = [].slice.call(
