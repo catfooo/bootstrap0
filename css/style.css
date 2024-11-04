@@ -18,4 +18,17 @@
 
  --bs-highlight-bg: #fff3cd;
 
+ 
+
 */
+
+/* 
+för att expand alltid 
+.navbar-expand {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+  }
+  .navbar-expand .navbar-nav {
+    flex-direction: row;
+  }
+ */
